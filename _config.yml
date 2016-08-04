@@ -47,6 +47,9 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
+-"350 Ferst Drive"
+-"325372 Georgia Tech Station"
+-"Atlanta, GA 30332"
 
 # Credits content
 credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
