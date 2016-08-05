@@ -90,7 +90,13 @@ header .container {
     padding-bottom: 50px;
 }
 
-header img {
+header img1 {
+    display: block;
+    margin: 0 auto -95px;
+    padding-right: 522px;
+}
+
+header img2 {
     display: block;
     margin: 0 auto -200px;
     padding-right: 522px;
