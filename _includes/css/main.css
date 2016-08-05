@@ -176,7 +176,7 @@ section {
 }
 
 section h2 {
-    margin: -300;
+    margin: 0;
     font-size: 3em;
 }
 
@@ -187,7 +187,7 @@ section.success {
 
 @media(max-width:767px) {
     section {
-        padding: 75px 0;
+        padding: 0px 0;
     }
 
     section.first {
