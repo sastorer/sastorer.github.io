@@ -1,5 +1,6 @@
 ---
 layout: default
+tags: projects
 modal-id: 2
 img: agencypic.jpg
 alt: image-alt

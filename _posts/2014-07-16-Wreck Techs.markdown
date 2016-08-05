@@ -1,5 +1,6 @@
 ---
 layout: default
+tags: projects
 modal-id: 3
 date: 2014-07-16
 img: wrecktechs.png

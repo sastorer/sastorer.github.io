@@ -1,5 +1,5 @@
  <!-- Portfolio Modals -->
- {% for post in site.posts %}
+ {% for post in site.tags.projects %}
     <div class="portfolio-modal modal fade" id="portfolioModal-{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
@@ -18,7 +18,7 @@
                             <p>{{ post.description }}</p>
                             <ul class="list-inline item-details">
                                 <li>Date:
-                                    <strong><a href="http://startbootstrap.com">{{ post.project-date }}</a>
+                                    <strong>{{ post.project-date }}
                                     </strong>
                                 </li>
                             </ul>
