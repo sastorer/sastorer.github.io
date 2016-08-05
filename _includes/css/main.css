@@ -524,6 +524,64 @@ footer .footer-below {
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
 }
+.involvement-modal .modal-content {
+    padding: 100px 0;
+    min-height: 100%;
+    border: 0;
+    border-radius: 0;
+    text-align: center;
+    background-clip: border-box;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.involvement-modal .modal-content h2 {
+    margin: 0;
+    font-size: 3em;
+}
+
+.involvement-modal .modal-content img {
+    margin-bottom: 30px;
+}
+
+.involvement-modal .modal-content .item-details {
+    margin: 30px 0;
+}
+
+.involvement-modal .close-modal {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    width: 75px;
+    height: 75px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.involvement-modal .close-modal:hover {
+    opacity: .3;
+}
+
+.involvement-modal .close-modal .lr {
+    z-index: 1051;
+    width: 1px;
+    height: 75px;
+    margin-left: 35px;
+    background-color: #{{ site.color.secondary }};
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.involvement-modal .close-modal .lr .rl {
+    z-index: 1052;
+    width: 1px;
+    height: 75px;
+    background-color: #{{ site.color.secondary }};
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
 
 .navbar-nav>.active>a {
     background-color: #{{ site.color.secondary-dark }} !important;
