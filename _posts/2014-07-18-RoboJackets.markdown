@@ -1,5 +1,6 @@
 ---
 layout: default
+tags: projects
 modal-id: 1
 img: robobuzz.PNG
 alt: image-alt
