@@ -78,7 +78,7 @@ hr.star-primary:after {
 }
 
 hr.star-primary-purple {
-    border-color: #b7a2e4;
+    border-color: #{{ site.color.secondary }};
 }
 
 hr.star-primary-purple:after {
