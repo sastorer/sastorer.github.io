@@ -37,6 +37,7 @@ h6 {
 }
 
 hr.star-light,
+hr.star-primary-purple,
 hr.star-primary {
     margin: 25px auto 30px;
     padding: 0;
@@ -47,6 +48,7 @@ hr.star-primary {
 }
 
 hr.star-light:after,
+hr.star-primary-purple:after,
 hr.star-primary:after {
     content: "\f005";
     display: inline-block;
@@ -72,6 +74,15 @@ hr.star-primary {
 
 hr.star-primary:after {
     color: #{{ site.color.secondary }};
+    background-color: #fff;
+}
+
+hr.star-primary-purple {
+    border-color: #b7a2e4;
+}
+
+hr.star-primary-purple:after {
+    color: #b7a2e4
     background-color: #fff;
 }
 
@@ -200,6 +211,10 @@ section.success {
     section.first {
         padding-top: 75px;
     }
+}
+
+section.portfolio {
+    background: #b7a2e4;
 }
 
 #portfolio .portfolio-item {
