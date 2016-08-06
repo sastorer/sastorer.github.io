@@ -82,8 +82,8 @@ hr.star-primary-purple {
 }
 
 hr.star-primary-purple:after {
-    color: #b7a2e4
-    background-color: #fff;
+    color: #{{ site.color.secondary }};
+    background-color: #b7a2e4;
 }
 
 .img-centered {
