@@ -290,6 +290,7 @@ section.success {
 #involvement .involvement-item .involvement-link {
     display: block;
     position: relative;
+    background: #cd8bdd;
     margin: 0 auto;
     max-width: 400px;
 }
